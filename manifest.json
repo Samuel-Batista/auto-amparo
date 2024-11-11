@@ -1,0 +1,23 @@
+
+{
+    "manifest_version": 3,
+    "name": "Auto Amparo",
+    "version": "0.1",
+
+    "icons": {
+        "16": "download.png",
+        "32": "download.png",
+        "48": "download.png",
+        "128": "download.png"
+      },
+
+    "description": "",
+
+    "content_scripts": [
+        {
+            "matches" : ["<all_urls>"],
+            "css" : ["main.css"],
+            "js" : ["main.js"]
+        }
+    ]
+}
